@@ -21,13 +21,13 @@ body {
 }
 
 .slide {
-  width: 20%;
-  transition: 2s;
+  /* width: 20%;
+  transition: 2s; */
 }
 
 .slide img {
-  width: 800px;
-  height: 500px
+  /* width: 800px; */
+  /* height: 500px */
 }
 
 .navigation-manual {
@@ -105,20 +105,6 @@ body {
   background: #40D3DC;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a {
   color: #49b5e7;
 }
@@ -128,18 +114,14 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Dosis", sans-serif;
 }
 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -169,6 +151,7 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   background: #fff;
   transition: all 0.5s;
@@ -199,7 +182,9 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /* Desktop Navigation */
+
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -227,9 +212,7 @@ h6 {
   font-weight: 600;
 }
 
-.nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
+.nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
   color: #49b5e7;
 }
 
@@ -267,9 +250,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active>a,
-.nav-menu .drop-down ul li:hover>a {
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active>a, .nav-menu .drop-down ul li:hover>a {
   color: #49b5e7;
 }
 
@@ -305,17 +286,16 @@ h6 {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-
   .nav-menu .drop-down .drop-down:hover>ul {
     left: -100%;
   }
-
   .nav-menu .drop-down .drop-down>a:after {
     content: "\ea9d";
   }
 }
 
 /* Mobile Navigation */
+
 .mobile-nav-toggle {
   position: fixed;
   top: 23px;
@@ -366,9 +346,7 @@ h6 {
   outline: none;
 }
 
-.mobile-nav a:hover,
-.mobile-nav .active>a,
-.mobile-nav li:hover>a {
+.mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
   color: #49b5e7;
   text-decoration: none;
 }
@@ -427,6 +405,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 80vh;
@@ -476,7 +455,6 @@ h6 {
     height: 100vh;
     text-align: center;
   }
-
   #hero .hero-img img {
     width: 50%;
   }
@@ -487,12 +465,10 @@ h6 {
     font-size: 28px;
     line-height: 36px;
   }
-
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
   }
-
   #hero .hero-img img {
     width: 80%;
   }
@@ -501,6 +477,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
 }
@@ -530,6 +507,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -680,7 +658,6 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
-
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -692,7 +669,6 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
-
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -702,6 +678,7 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
+
 .counts {
   background: url("../img/counts-bg.jpg") center center no-repeat;
   background-size: cover;
@@ -754,6 +731,7 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
 .clients .clients-wrap {
   border-top: 1px solid #eee;
   border-left: 1px solid #eee;
@@ -791,6 +769,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -808,7 +787,7 @@ section {
 
 .services .icon {
   position: absolute;
-  left: -20px;
+  /* left: -20px; */
   top: calc(50% - 30px);
 }
 
@@ -819,9 +798,10 @@ section {
 }
 
 .services .title {
-  margin-left: 40px;
+  margin-left: 70px;
   font-weight: 700;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  margin-bottom: 0px;
   font-size: 18px;
 }
 
@@ -843,6 +823,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -869,8 +850,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #49b5e7;
 }
 
@@ -999,6 +979,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
 .testimonials {
   padding: 80px 0;
   background: url("../img/cta-bg.jpg") no-repeat;
@@ -1046,8 +1027,7 @@ section {
   margin: 0 0 15px 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 }
@@ -1071,8 +1051,7 @@ section {
   color: #eee;
 }
 
-.testimonials .owl-nav,
-.testimonials .owl-dots {
+.testimonials .owl-nav, .testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1105,6 +1084,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1183,6 +1163,7 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #fff;
@@ -1200,6 +1181,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1234,14 +1216,11 @@ section {
   color: #2079a1;
 }
 
-.contact .info .email,
-.contact .info .phone {
+.contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #49b5e7;
   color: #fff;
 }
@@ -1305,8 +1284,7 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1338,7 +1316,6 @@ section {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -1348,7 +1325,6 @@ section {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -1357,6 +1333,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
   background: #f0f9fd;
@@ -1399,11 +1376,9 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
-
   .breadcrumbs ol {
     display: block;
   }
-
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -1412,6 +1387,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1425,8 +1401,7 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1498,6 +1473,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
@@ -1663,9 +1639,7 @@ section {
 }
 
 @media (max-width: 575px) {
-
-  #footer .copyright,
-  #footer .credits {
+  #footer .copyright, #footer .credits {
     float: none;
     text-align: center;
   }
